@@ -1,2 +1,2 @@
 # CSE416-Project
-Test out heroku auto deploy
+Test out azure auto deploy
