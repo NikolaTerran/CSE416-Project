@@ -68,4 +68,5 @@ stages:
               ScriptType: 'Inline Script'
               InlineScript: |
                 npm install
-                npm run build --if-present
+                node index.js
+                cd client && npm install --only=dev && npm install && npm run build
