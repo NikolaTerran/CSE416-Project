@@ -1,7 +1,7 @@
 import axios from "axios";
 axios.defaults.withCredentials = true;
 const api = axios.create({
-  baseURL: "https://cse-416-jart.herokuapp.com/api",
+  baseURL: "https://jart.azurewebsites.net//api",
 });
 
 export const createGame = () => {

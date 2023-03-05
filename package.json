@@ -22,11 +22,9 @@
     "socket.io": "^4.4.1",
     "socket.io-client": "^4.4.1"
   },"scripts": {
-    "start": "node index.js",
-    "azure": "NPM_CONFIG_PRODUCTION=false cd client && npm install --only=dev && npm install && npm run build"
+    "start": "node index.js"
   },
   "engines": {
     "node": "16.9.1"
-  },
-  "start": "node index.js"
+  }
 }

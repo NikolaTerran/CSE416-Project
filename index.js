@@ -16,7 +16,7 @@ app.use(
     origin: [
       "http://localhost:3000",
       "http://localhost:4000",
-      "https://cse-416-jart.herokuapp.com/",
+      "https://jart.azurewebsites.net/",
     ],
     credentials: true,
   })
